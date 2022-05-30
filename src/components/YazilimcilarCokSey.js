@@ -16,7 +16,7 @@ class YazilimcilarCokSey extends React.Component {
         '0': 'kazanıyor',
         '1': 'çalışıyor',
         '2': 'tatil yapıyor',
-        '3': 'tatıyor',
+        '3': 'yatıyor',
         '4': 'uykusuz kalıyor',
         '5': 'saçmalıyor',
         '6': 'boş konuşuyor',
