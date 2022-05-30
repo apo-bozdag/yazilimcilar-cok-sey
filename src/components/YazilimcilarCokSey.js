@@ -72,7 +72,7 @@ class YazilimcilarCokSey extends React.Component {
     twitterShareButton = () => {
         let text = this.returnText()
         if (text !== 'Lütfen tüm alanları doldurunuz') {
-            text += `\n https://www.yazilimcilarcoksey.com`
+            text += `https://yazilimcilar-cok-sey.vercel.app`
             const url = `https://twitter.com/intent/tweet?text=${text}`
             return <a href={url} target="_blank" rel="noreferrer" className="twitter-share-button">
                 twitter da paylaş
@@ -83,7 +83,7 @@ class YazilimcilarCokSey extends React.Component {
     render() {
         return (
             <div>
-                <h1>Yazılımcılar çok sey</h1>
+                <h1>Yazılımcılar çok şey</h1>
                 <select name="lastDigitOfBirthDay" onChange={this.selectChangeHandler}>
                     <option value="">Doğum gününün son rakamı</option>
                     <option value="0">0</option>
