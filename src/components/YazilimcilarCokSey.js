@@ -82,8 +82,8 @@ class YazilimcilarCokSey extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>Yazılımcılar çok şey</h1>
+            <div className='scene'>
+                <h1 className='title'>Yazılımcılar çok şey</h1>
                 <select name="lastDigitOfBirthDay" onChange={this.selectChangeHandler}>
                     <option value="">Doğum gününün son rakamı</option>
                     <option value="0">0</option>
@@ -126,12 +126,17 @@ class YazilimcilarCokSey extends React.Component {
                     <option value="9">9</option>
                 </select>
 
-                <hr/>
-                <span>
+                <hr className='divider' />
+
+                <p className='result'>
                     {this.returnText()}
-                </span>
+                </p>
                 <br/>
                 {this.twitterShareButton()}
+
+                <a className='radkod-logo' href="https://radkod.com" title="RadKod" target="_blank" rel="noreferrer">
+                    <img src="/img/radkod-logo-full.png" alt="radkod"/>
+                </a>
             </div>
         )
     }
