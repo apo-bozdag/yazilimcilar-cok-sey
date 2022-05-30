@@ -36,10 +36,10 @@ class YazilimcilarCokSey extends React.Component {
         '9': 'tartışıyor',
         '10': 'itiraz ediyor',
         '11': 'itaatkar',
-        '12': 'müallim',
+        '12': 'muallim',
     }
     lastDigitOfYearBirthMap = {
-        '0': 'hıryarlık',
+        '0': 'hıyarlık',
         '1': 'dangalaklık',
         '2': 'hainlik',
         '3': 'kandırmaca',
